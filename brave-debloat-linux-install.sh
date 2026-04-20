@@ -5,7 +5,7 @@ echo "https://github.com/MulesGaming/brave-debloatinator"
 # Make dir
 sudo mkdir /etc/brave/policies/managed -p
 # Download file
-wget https://github.com/jinformatique/brave-debloat/releases/download/1.0.0/brave_debloat-policies.json
+wget https://github.com/jinformatique/brave-debloat/blob/main/brave_debloat-policies.json
 sudo cp brave_debloat-policies.json /etc/brave/policies/managed
 rm brave_debloat-policies.json
 # End
